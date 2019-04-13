@@ -38,6 +38,4 @@ If you are using SED-SIQA code, please cite this paper.
 	
         DepthPerception.m
 
-5)      Compute stereo quality using 
-
-	SED_SIQA.m
+5)      Compute stereo quality using SED_SIQA.m
