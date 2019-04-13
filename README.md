@@ -22,13 +22,14 @@ If you are using SED-SIQA code, please cite this paper.
 2)	For spyrdecomp addpath to steerable pyramid toolbox folder.
 
 3)	Compute left and right disparity maps using Unrec_Dmap.
+
 	For left disparity map do the following:
-	Dmap_l = Unrec_Dmap(IL, IR, maxs);  where IL and IR are color stereopairs
+	``` Dmap_l = Unrec_Dmap(IL, IR, maxs); %% where IL and IR are color stereopairs```
 	For right disparity map do the following:
-	iL = flip(IL,2);
-	iR = flip(IR,2);
-	dmapr = Unrec_Dmap(iR, iL, maxs);
-	Dmap_r = flip(dmapr,2);
+	``` iL = flip(IL,2);
+        ``` iR = flip(IR,2);
+	``` dmapr = Unrec_Dmap(iR, iL, maxs);
+	``` Dmap_r = flip(dmapr,2);
 
 4)	Compute SED maps from DepthPerception.m
 
