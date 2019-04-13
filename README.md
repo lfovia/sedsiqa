@@ -29,11 +29,12 @@ If you are using SED-SIQA code, please cite this paper.
 	iR = flip(IR,2);
 	dmapr = Unrec_Dmap(iR, iL, maxs);
 	Dmap_r = flip(dmapr,2);
-
+	
 4)	Compute SED maps using 
-```python
+	```python
 	DepthPerception.m
-```
+	```
 5)      Compute stereo quality using
-```python
+	```python
 	SED_SIQA.m
+         ```
