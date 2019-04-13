@@ -29,13 +29,14 @@ If you are using SED-SIQA code, please cite this paper.
 	
 	For right disparity map do the following:
 	
-	``` iL = flip(IL,2); ```
+```iL = flip(IL,2);
 	
-        ``` iR = flip(IR,2); ```
+           iR = flip(IR,2);
 	
-	``` dmapr = Unrec_Dmap(iR, iL, maxs); ```
+	   dmapr = Unrec_Dmap(iR, iL, maxs);
 	
-	``` Dmap_r = flip(dmapr,2);```
+	   Dmap_r = flip(dmapr,2);
+	```
 
 4)	Compute SED maps from DepthPerception.m
 
