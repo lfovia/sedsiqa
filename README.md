@@ -33,7 +33,7 @@ If you are using SED-SIQA code, please cite this paper.
 4)	Compute SED maps using 
 ```python
 	DepthPerception.m
-
+```
 5)      Compute stereo quality using
 ```python
-SED_SIQA.m
+	SED_SIQA.m
